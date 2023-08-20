@@ -1,0 +1,74 @@
+.green-clr {
+  color: var(--card-bg-color);
+  text-decoration: ite;
+}
+
+#showcase {
+  padding: 4rem 2rem;
+}
+
+.heading-container {
+  display: flex;
+  flex-direction: column;
+}
+.showcase-heading {
+  font-size: 5.5rem;
+  color: rgb(255, 255, 255);
+  line-height: 8.67rem;
+}
+
+.description-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.description {
+  color: rgb(255, 255, 255);
+  width: 22rem;
+  line-height: 1.6rem;
+}
+.location {
+  color: rgb(255, 255, 255);
+}
+
+.available-date {
+    display: inline-block;
+    font-size: .7rem;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 40%;
+    left: 55%;
+    padding: .5rem .6rem;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 2rem;
+}
+.available-date span {
+    font-weight: 500;
+}
+.green-circle {
+    background-color: var(--card-bg-color);
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.view-pricing-plan-btn {
+  color: var(--card-btn-color);
+  background-color: var(--card-bg-color);
+  border: none;
+  border-radius: 100px;
+  padding: 12px;
+  margin-top: 1.8rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.view-pricing-plan-btn:hover {
+  transform: translateY(-10px);
+}
+
+.view-pricing-plan-btn:hover .arrow-right {
+  transform: rotate(-30deg);
+}
