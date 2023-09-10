@@ -12,7 +12,6 @@ function Showcase() {
   return (
     <div id="showcase">
       <div className="heading-container">
-      {/* heading animation styling */}
         <div className="showcase-heading">
           <span className="bounce">The</span> <span>website </span>
           <span>that</span> <em className=" green-clr">takes </em>
@@ -25,17 +24,17 @@ function Showcase() {
           <em className=" green-clr"> level.</em>
         </div>
       </div>
-      <div className="description-container">
+      <div className="descriptions-container">
       {/* This Div has animation entry the same as heading */}
-        <div>
+        <div className="description-container">
             <p className="description">A web design & Webflow development studio crafting unique, high-quality websites that inspire, influence and convert.</p>
+            <button className="view-pricing-plan-btn">View Pricing Plans <FontAwesomeIcon className='arrow-right' icon={faArrowRightLong}/></button>
         </div>
-        <div>
+        <div className="location-container">
             <p className="location">Web Design & Webflow Development Studio in <em className="green-clr">Manila, Ph.</em></p>
             <div className="available-date">Available for <span>{nameOfMonth} {year}</span> <div className="green-circle"></div></div>
         </div>
       </div>
-        <button className="view-pricing-plan-btn">View Pricing Plans <FontAwesomeIcon className='arrow-right' icon={faArrowRightLong}/></button>
     </div>
   );
 }

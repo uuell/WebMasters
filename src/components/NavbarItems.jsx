@@ -20,7 +20,7 @@ function NavbarItems() {
 
   return (
     <div id="navbar-items-container">
-      <ul>
+      <ul >
         <a href="#work">
           <li className="navbar-items">Work</li>
         </a>
