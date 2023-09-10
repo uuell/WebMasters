@@ -17,6 +17,8 @@
   line-height: 8.67rem;
 }
 
+
+
 .description-container {
   display: flex;
   justify-content: space-between;
@@ -72,3 +74,12 @@
 .view-pricing-plan-btn:hover .arrow-right {
   transform: rotate(-30deg);
 }
+
+
+
+/* @media (max-width:750px){
+  .description-container {
+    justify-content: space-between;
+    flex-direction: column;
+  }
+} */

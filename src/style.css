@@ -7,11 +7,13 @@
 }
 
 :root {
-
   --bg-color: #054638;
-
   --card-bg-color: #55ec9a;
   --card-btn-color: #073f34;
+
+  --bar-height: 5px;
+  --bar-width: 30px;
+  --bar-gap: 3px;
 }
 
 body {
