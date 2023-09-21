@@ -27,11 +27,11 @@ function Showcase() {
       <div className="descriptions-container">
       {/* This Div has animation entry the same as heading */}
         <div className="description-container">
-            <p className="description">A web design & Webflow development studio crafting unique, high-quality websites that inspire, influence and convert.</p>
+            <p className="description">A Web design & Webflow studio for crafting unique, inspiring, and high-quality websites that convert.</p>
             <button className="view-pricing-plan-btn">View Pricing Plans <FontAwesomeIcon className='arrow-right' icon={faArrowRightLong}/></button>
         </div>
         <div className="location-container">
-            <p className="location">Web Design & Webflow Development Studio in <em className="green-clr">Manila, Ph.</em></p>
+            <p className="location">Crafting Digital Dreams with Web Design & Webflow in <em className="green-clr">Manila, Ph.</em></p>
             <div className="available-date">Available for <span>{nameOfMonth} {year}</span> <div className="green-circle"></div></div>
         </div>
       </div>
