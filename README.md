@@ -1,5 +1,5 @@
 # WebMasters🟢 || Web Design🟩
-![Alt text](./public/image.png)
+![WebMasters Webpage](./public/image.png)
 
 A React project I'm building just for fun😁
  ```
